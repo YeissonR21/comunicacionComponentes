@@ -1,1 +1,9 @@
-<p>componente2 works!</p>
+<h2>{{ titulo }}</h2>
+
+<ul>
+  <li *ngFor="let op of opciones; let i = index"
+      [class.activo]="i === seleccionado"
+      (click)="seleccionar(i)">
+    {{ op }}
+  </li>
+</ul>

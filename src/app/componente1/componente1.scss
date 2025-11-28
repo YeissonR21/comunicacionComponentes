@@ -1,0 +1,33 @@
+
+.nav-container {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    padding: 16px 32px;
+    align-items: center;
+}
+.nav-brand {
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+.nav-list {
+    display: block;
+    list-style: none;
+}
+.nav-item a {
+    padding: 0 10px;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-item .active {
+    color: red;
+}
+.nav-item a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
